@@ -7,3 +7,16 @@
   justify-content:space-between;
   
 }
+
+img {
+    height:200px;
+    border:10px solid black; 
+}
+
+.title1{
+    color: black;
+}
+
+body{
+    background-color: lightblue;
+}

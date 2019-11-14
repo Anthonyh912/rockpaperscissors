@@ -1,11 +1,15 @@
-// *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
+$("#shoot").click(function () {
+  var choice = Math.random();
 
-//GLOBAL VARIABLES
-/* global $ */
+    let answer = $("#input").val()
+    $("#userChoice").html(answer)
 
-
-
-// DOCUMENT READY FUNCTION BELOW
+  if (choice > .60) {
+    $("#computerChoice").html("Rock");
+  } else if (choice < .60 & choice > .30) {
+    $("#computerChoice").html("Paper");
+  } else {
+    $("#computerChoice").html("Scissors");
+  }
+});
 
